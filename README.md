@@ -1,5 +1,3 @@
-
-```
 # 🎬 Movies CRUD API
 
 A simple RESTful API to manage movies, built using **Node.js**, **Express**, and **MongoDB (Mongoose)**.
@@ -27,7 +25,6 @@ A simple RESTful API to manage movies, built using **Node.js**, **Express**, and
 ## 📁 Folder Structure
 
 ```
-
 project-root/
 ├── model/
 │   └── movieschema.js
@@ -38,8 +35,7 @@ project-root/
 ├── routes/
 │   └── moviesRoutes.js
 ├── index.js (entry point)
-
-````
+```
 
 ---
 
@@ -64,7 +60,7 @@ project-root/
   rating: Number (required),
   genre: String (optional)
 }
-````
+```
 
 ---
 
@@ -73,7 +69,7 @@ project-root/
 ### 1. Clone the repository
 
 ```bash
-git clone my-reo-link
+git clone your-repo-link
 ```
 
 ### 2. Install dependencies
@@ -88,7 +84,7 @@ Create a `.env` file in the root:
 
 ```
 PORT=3000
-MONGODB_URI=yourdburl
+MONGODB_URI=your_mongodb_connection_string
 ```
 
 ### 4. Run the Server
@@ -141,15 +137,9 @@ The API returns structured error messages like:
 }
 ```
 
+---
 
 ## 💬 Author
 
-Developed by **Ajit Yadav** 🚀
+Developed by **Ajit Yadav** 🚀  
 [GitHub](https://github.com/ajit180)
-
-```
-
----
-
-Let me know if you want to add deployment steps (Render/Vercel), Swagger docs, or a sample Postman collection!
-```
