@@ -45,7 +45,6 @@ project-root/
 |--------|------------------------|-----------------------|
 | POST   | `/api/movies/create`   | Create a new movie    |
 | GET    | `/api/movies`          | Get all movies        |
-| GET    | `/api/movies/:id`      | Get movie by ID       |
 | PUT    | `/api/movies/:id`      | Update movie by ID    |
 | DELETE | `/api/movies/:id`      | Delete movie by ID    |
 
